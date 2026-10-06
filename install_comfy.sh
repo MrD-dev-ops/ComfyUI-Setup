@@ -77,12 +77,10 @@ ln -sfn python3.12-config "$HOME/python/3.12.15/bin/python-config"
 echo 'export PATH="$HOME/python/3.12.15/bin:$PATH"' >> ~/.bashrc
 export PATH="$HOME/python/3.12.15/bin:$PATH"
 
-
-
-
-
-
-
+# Setup UV
+curl -LsSf https://astral.sh/uv/install.sh | sh
+source $HOME/.local/bin/env
+uv self update
 
 
 
