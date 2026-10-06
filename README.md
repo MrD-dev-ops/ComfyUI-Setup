@@ -167,7 +167,7 @@ Tue Oct  6 19:55:52 2026
 ```
 sudo apt update && sudo apt install git curl -y
 ```
-1) Add uv to the syste PATH
+1) Add uv to the system PATH
 ```
 source $HOME/.local/bin/env
 ```
