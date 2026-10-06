@@ -48,34 +48,32 @@ apt update && apt install openssh-server -y
 sudo nano /etc/ssh/sshd_config
 ```
 ### Allow ssh root logins and password logins
-Copy/Paste this into the nano text edit \
-Press CTRL-o to save \
-Press CTRL-x to exit nano \
+1) Copy/Paste this into the nano text edit
+2) Press CTRL-o to save
+3) Press CTRL-x to exit nano
 ```
 PermitRootLogin yes
 PasswordAuthentication yes
 ```
-Restart ssh service
+4) Restart ssh service
 ```
 sudo systemctl restart ssh
 ```
 
-Run this command in the console and the ssh service should show running
+5) Run this command in the console and the ssh service should show running
 ```
 sudo systemctl status ssh
 ```
-
-
-2) Download the older version of NVIDIA driver 535.309-01 onto the Proxmox server
+# Install NVIDIA drivers on Proxmox server
+1) Download the older version of NVIDIA driver 535.309-01 onto the Proxmox server
 ```
 wget -c https://download.nvidia.com/XFree86/Linux-x86_64/535.309.01/NVIDIA-Linux-x86_64-535.309.01.run
 ```
 ```
 chmod +x NVIDIA-Linux-x86_64-535.309.01.run
 ```
-3) Install the NVIDIA driver
 ```
-./NVIDIA* --dkms -s
+./NVIDIA-Linux-x86_64-535.309.01.run --dkms -s
 ```
 4) Start the ComfyUI LXC vm
 
