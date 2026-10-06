@@ -17,7 +17,7 @@ git clone https://github.com/MrD-dev-ops/ComfyUI-Setup.git
 cd ~/ComfyUI-Setup
 ```
 ```
-chmod +x install_comfy.sh
+chmod +x *.sh
 ```
 ```
 ./install_comfy.sh
