@@ -27,7 +27,8 @@ echo "Installing requirements..."
 
 uv pip install --python /root/venv/bin/python3.12 --upgrade comfyui-manager
 uv pip install --python /root/venv/bin/python3.12 -r ~/ComfyUI/requirements.txt
-uv pip install --python /root/venv/bin/python3.12 -r ~/ComfyUI/custom_nodes/comfyui-manager/requirements.txt
+#uv pip install --python /root/venv/bin/python3.12 -r ~/ComfyUI/custom_nodes/comfyui-manager/requirements.txt
+uv pip install --python /root/venv/bin/python3.12 -r ~/ComfyUI/custom_nodes/ComfyUI-Manager/requirements.txt
 
 #python3.12 -m pip uninstall torch torchvision torchaudio -y
 uv pip install --python /root/venv/bin/python3.12 torch torchvision torchaudio --torch-backend=cu118
