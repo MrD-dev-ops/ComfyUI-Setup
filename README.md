@@ -131,7 +131,7 @@ cr--r--r--  1 root root 240, 2 Oct  6 13:39 nvidia-cap2
 Your detected NVIDIA devices may vary from mine depending upon you GPU hardware
 
 8) Reboot the Ubuntu 26.04 server LXC
-9) Log into the LXC
+9) Log into the LXC via SSH
 10) Type the following command into the LXC terminal to check of the GPU(s) are detected
 ```
 nvidia-smi
