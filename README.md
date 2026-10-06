@@ -29,7 +29,7 @@ chmod +x update.sh
 reboot
 ```
 
-# Optional -UFW firewall setup
+### Optional -UFW firewall setup
 1) On the Ubuntu 26.04 server LXC log into the console and type:
 ```
 sudo ufw allow ssh && sudo ufw allow 8188/tcp
@@ -47,7 +47,7 @@ apt update && apt install openssh-server -y
 ```
 sudo nano /etc/ssh/sshd_config
 ```
-## Allow ssh root logins and password logins
+### Allow ssh root logins and password logins
 Copy/Paste this into the nano text edit \
 Press CTRL-o to save \
 Press CTRL-x to exit nano \
