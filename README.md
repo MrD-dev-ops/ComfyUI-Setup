@@ -11,7 +11,7 @@ The latest version of Python does not support the older NVIDIA drivers so we nee
 
 # Git Clone this repo
 ```
-git clonehttps://github.com/MrD-dev-ops/ComfyUI-Setup.git
+git clone https://github.com/MrD-dev-ops/ComfyUI-Setup.git
 ```
 ```
 cd ~/ComfyUI-Setup
