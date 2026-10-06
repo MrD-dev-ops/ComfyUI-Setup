@@ -6,7 +6,7 @@ P40 and GTX 1000 series gpu's run the Architecture 61 cards.  Modern CUDA and NV
 The latest version of Python does not support the older NVIDIA drivers so we need to install Python 3.12.15 for compatibility.
 
 # LXC setup
-1) Create a LXC vm on Proxmox.  I have mine with 350Gb disk, 24Gb ram, 30 cpu cores, and a static IP.
+1) Create a CT/LXC vm on Proxmox.  I have mine with 350Gb disk, 24Gb ram, 30 cpu cores, and a static IP.
 2) Start the LXC vm and log into from the shell
 
 # Git Clone this repo
