@@ -47,10 +47,10 @@ apt update && apt install openssh-server -y
 ```
 sudo nano /etc/ssh/sshd_config
 ```
-Allow ssh root logins and password logins
-Copy/Paste this into the nano text edit.
-Press CTRL-o to save
-Press CTRL-x to exit nano
+## Allow ssh root logins and password logins
+Copy/Paste this into the nano text edit \
+Press CTRL-o to save \
+Press CTRL-x to exit nano \
 ```
 PermitRootLogin yes
 PasswordAuthentication yes
