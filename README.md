@@ -7,6 +7,24 @@ The latest version of Python does not support the older NVIDIA drivers so we nee
 
 # LXC setup
 1) Create a LXC vm on Proxmox.  I have mine with 350Gb disk, 24Gb ram, 30 cpu cores, and a static IP.
+2) Start the LXC vm and log into from the shell
+
+# Git Clone this repo
+```
+git clonehttps://github.com/MrD-dev-ops/ComfyUI-Setup.git
+```
+```
+cd ~/ComfyUI-Setup
+```
+```
+chmod +x install_comfy.sh
+```
+
+
+
+
+
+
 
 # Update Ubuntu 26.04 server LXC
 1) Copy the update.sh and type in the Ubuntu 26.04 console:
