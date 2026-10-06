@@ -9,6 +9,10 @@ The latest version of Python does not support the older NVIDIA drivers so we nee
 1) Create a CT/LXC vm on Proxmox.  I have mine with 350Gb disk, 24Gb ram, 30 cpu cores, and a static IP.
 2) Start the LXC vm and log into from the shell
 
+```
+sudo apt update && sudo apt install git
+```
+
 # Git Clone this repo
 ```
 git clone https://github.com/MrD-dev-ops/ComfyUI-Setup.git
