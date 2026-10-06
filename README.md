@@ -26,6 +26,15 @@ chmod +x NVIDIA-Linux-x86_64-535.309.01.run
 ```
 ./NVIDIA* --dkms -s
 ```
+4) Start the ComfyUI LXC
+5) Copy the update.sh and type:
+   ```
+   nano update.sh
+   ```
+6) Past the update.sh into the text editor using CTRL-SHIFT-V
+7) Press CTRL-o to save
+8) Press CTRL-x to exit the nano text editor
+
 
 Add in the GPU via the passthru
 List all detected GPU's
