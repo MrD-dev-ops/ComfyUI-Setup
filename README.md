@@ -19,6 +19,9 @@ cd ~/ComfyUI-Setup
 ```
 chmod +x install_comfy.sh
 ```
+```
+./install_comfy.sh
+```
 
 
 
