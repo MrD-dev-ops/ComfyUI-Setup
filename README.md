@@ -28,8 +28,11 @@ nano update.sh
 reboot
 ```
 
-#Optional -UFW firewall setup
-1) On the Ubuntu 26.04 server LXC
+# Optional -UFW firewall setup
+1) On the Ubuntu 26.04 server LXC log into the console and type:
+```
+sudo ufw allow ssh && sudo ufw allow 8188/tcp
+```
 
 
 
