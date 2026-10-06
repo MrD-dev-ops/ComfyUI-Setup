@@ -45,7 +45,7 @@ sudo ufw status verbose
 apt update && apt install openssh-server -y
 ```
 ```
-sudo nano /etc/ssh/sshd_config
+nano /etc/ssh/sshd_config
 ```
 Allow ssh root logins and password logins
 Copy/Paste this into the nano text edit.
