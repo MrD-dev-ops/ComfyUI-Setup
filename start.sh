@@ -31,9 +31,6 @@ uv pip install --python /root/venv/bin/python3.12 --upgrade ComfyUI-Manager
 cd ~/ComfyUI/custom_nodes
 uv pip install --python /root/venv/bin/python3.12 -r ~/ComfyUI/custom_nodes/ComfyUI-Manager/requirements.txt
 
-uv pip install --python /root/venv/bin/python3 -r ~/ComfyUI/custom_nodes/ComfyUI-Manager/requirements.txt
-
-
 #python3.12 -m pip uninstall torch torchvision torchaudio -y
 uv pip install --python /root/venv/bin/python3.12 torch torchvision torchaudio --torch-backend=cu118
 
