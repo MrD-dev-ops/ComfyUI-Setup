@@ -22,6 +22,7 @@ git clone https://github.com/Comfy-Org/ComfyUI.git
 Download Python:
 ```
 mkdir python3.12
+cd python3.12
 ```
 ```
 wget -c https://www.python.org/ftp/python/3.12.15/Python-3.12.15.tar.xz
