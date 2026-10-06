@@ -17,7 +17,7 @@ fi
 source venv/bin/activate
 echo "Virtual environment is now active!"
 
-uv pip install --python python3.12 --upgrade pip
+uv pip install --python python3 --upgrade pip
 
 # 3. Enter the ComfyUI directory
 cd ~/ComfyUI
