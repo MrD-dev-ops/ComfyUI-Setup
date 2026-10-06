@@ -19,8 +19,12 @@ git clone https://github.com/Comfy-Org/ComfyUI.git
 ```
 
 # Python 3.12.15 compile from source
+Download Python:
 ```
-https://www.python.org/ftp/python/3.12.15/Python-3.12.15.tar.xz
+mkdir python3.12
+```
+```
+wget -c https://www.python.org/ftp/python/3.12.15/Python-3.12.15.tar.xz
 ```
 
 
