@@ -136,7 +136,7 @@ Your detected NVIDIA devices may vary from mine depending upon you GPU hardware
 ```
 nvidia-smi
 ```
-Should see something like this
+Should see something like this in the terminal
 ```
 nvidia-smi
 Tue Oct  6 19:55:52 2026       
