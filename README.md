@@ -92,19 +92,26 @@ chmod +x NVIDIA-Linux-x86_64-535.309.01.run
 ```
 3) Reboot the PROXMOX server (which will also reboot the Ubuntu 26.04 server LXC)
 
-
-
-
-
-
-
-
-Add in the GPU via the passthru
-List all detected GPU's
-
+# Add in the GPU via the passthru
+1) List all detected GPU's on the PROXMOX server
+2) Open the Proxmox shell and type:
 ```
 ls -al /dev/nvidia*
 ```
+Should display something similar:
+ls -al /dev/nvidia*
+crw-rw-rw- 1 root root 195,   0 Oct  6 13:39 /dev/nvidia0
+crw-rw-rw- 1 root root 195,   1 Oct  6 13:39 /dev/nvidia1
+crw-rw-rw- 1 root root 195, 255 Oct  6 13:39 /dev/nvidiactl
+crw-rw-rw- 1 root root 237,   0 Oct  6 13:39 /dev/nvidia-uvm
+crw-rw-rw- 1 root root 237,   1 Oct  6 13:39 /dev/nvidia-uvm-tools
+
+/dev/nvidia-caps:
+total 0
+drwxr-xr-x  2 root root     80 Oct  6 13:39 .
+drwxr-xr-x 21 root root   4920 Oct  6 13:39 ..
+cr--------  1 root root 240, 1 Oct  6 13:39 nvidia-cap1
+cr--r--r--  1 root root 240, 2 Oct  6 13:39 nvidia-cap2
 
 
 
