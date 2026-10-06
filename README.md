@@ -163,6 +163,10 @@ Tue Oct  6 19:55:52 2026
 |  No running processes found                                                           |
 +---------------------------------------------------------------------------------------+
 ```
+# Install GIT
+```
+sudo apt update && sudo apt install git -y
+```
 # Install ComfyUI
 ```
 git clone https://github.com/Comfy-Org/ComfyUI.git
