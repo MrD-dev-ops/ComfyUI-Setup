@@ -59,7 +59,6 @@ PasswordAuthentication yes
 ```
 sudo systemctl restart ssh
 ```
-
 5) Run this command in the console and the ssh service should show running
 ```
 sudo systemctl status ssh
@@ -164,13 +163,7 @@ Tue Oct  6 19:55:52 2026
 |  No running processes found                                                           |
 +---------------------------------------------------------------------------------------+
 ```
-
-
-
-
-
-
-
+# Install ComfyUI
 ```
 git clone https://github.com/Comfy-Org/ComfyUI.git
 ```
