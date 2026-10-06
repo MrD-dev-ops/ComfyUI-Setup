@@ -1,6 +1,6 @@
 # ComfyUI-Setup on Proxmox server
-# Running Ubuntu 26.04 server cli LXC
-# Nvidia Tesla P40 (24Gb) gpu and GTX 1070 gpu
+## Running Ubuntu 26.04 server cli LXC
+## Nvidia Tesla P40 (24Gb) gpu and GTX 1070 gpu
 
 How to Use the LTX 2.5 All-In-One Workflow in ComfyUI \
 https://www.youtube.com/watch?v=v1zOJa95Bo4
