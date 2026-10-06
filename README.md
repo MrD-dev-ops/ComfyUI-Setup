@@ -19,6 +19,14 @@ nano update.sh
 5) ```
    chmod +x update.sh
    ```
+6) In the Proxmox console run and install all updates
+```
+./update.sh
+```
+7) Reboot the Ubuntu 26.04 server
+```
+reboot
+```
 
 
 
