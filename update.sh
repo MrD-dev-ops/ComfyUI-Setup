@@ -1,6 +1,7 @@
 #!/bin/bash
 clear
-sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt full-upgrade -y \
+#Install latest security updates
+sudo apt update && sudo apt upgrade -y && sudo apt full-upgrade -y \
 && sudo apt autoremove -y && sudo apt clean && sudo apt autoclean
 
 #Install packages required to build python3.12.15
