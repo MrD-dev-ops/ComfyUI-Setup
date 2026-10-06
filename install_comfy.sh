@@ -30,8 +30,6 @@ fi
 sudo systemctl restart ssh
 
 # Download and install NVIDIA 535.309.01 Drivers
-#!/bin/bash
-
 # Define the file name
 FILENAME="NVIDIA-Linux-x86_64-535.309.01.run"
 URL="https://download.nvidia.com/XFree86/Linux-x86_64/535.309.01/$FILENAME"
