@@ -30,7 +30,21 @@ fi
 sudo systemctl restart ssh
 
 # Download and install NVIDIA 535.309.01 Drivers
-wget -c https://download.nvidia.com/XFree86/Linux-x86_64/535.309.01/NVIDIA-Linux-x86_64-535.309.01.run
+#!/bin/bash
+
+# Define the file name
+FILENAME="NVIDIA-Linux-x86_64-535.309.01.run"
+URL="https://download.nvidia.com/XFree86/Linux-x86_64/535.309.01/$FILENAME"
+
+# Check if the file already exists locally
+if [ -f "$FILENAME" ]; then
+    echo "File $FILENAME already exists. Skipping download."
+else
+    echo "Downloading $FILENAME..."
+    wget -c "$URL"
+fi
+
+#wget -c https://download.nvidia.com/XFree86/Linux-x86_64/535.309.01/NVIDIA-Linux-x86_64-535.309.01.run
 chmod +x NVIDIA-Linux-x86_64-535.309.01.run
 ./NVIDIA-Linux-x86_64-535.309.01.run --no-kernel-modules -s
 
