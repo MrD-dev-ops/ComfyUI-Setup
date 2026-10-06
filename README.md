@@ -11,6 +11,8 @@ https://ltxworkflow.com/guide/ltx-2-5-comfyui
 #Install ComfyUI on Linux (Ubuntu 26.04)
 https://docs.comfy.org/installation/manual_install
 
+P40 and GTX 1000 series gpu's run the Architecture 61 cards.  Modern CUDA and NVIDIA drivers no longer support these cards and require older version to work with ComfyUI.
+
 ```
 git clone https://github.com/Comfy-Org/ComfyUI.git
 ```
