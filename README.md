@@ -10,7 +10,7 @@ The latest version of Python does not support the older NVIDIA drivers so we nee
 2) Start the LXC vm and log into from the shell
 
 ```
-sudo apt update && sudo apt install git
+sudo apt update && sudo apt install git -y
 ```
 
 # Git Clone this repo
