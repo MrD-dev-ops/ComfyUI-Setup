@@ -49,12 +49,12 @@ sudo nano /etc/ssh/sshd_config
 ```
 ### Allow ssh root logins and password logins
 1) Copy/Paste this into the nano text edit
-2) Press CTRL-o to save
-3) Press CTRL-x to exit nano
 ```
 PermitRootLogin yes
 PasswordAuthentication yes
 ```
+2) Press CTRL-o to save
+3) Press CTRL-x to exit nano
 4) Restart ssh service
 ```
 sudo systemctl restart ssh
