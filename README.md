@@ -90,6 +90,8 @@ chmod +x NVIDIA-Linux-x86_64-535.309.01.run
 ```
 ./NVIDIA-Linux-x86_64-535.309.01.run --no-kernel-modules -s
 ```
+3) Reboot the PROXMOX server (which will also reboot the Ubuntu 26.04 server LXC)
+
 
 
 
