@@ -193,7 +193,7 @@ cd ~/ComfyUI
 uv pip install --python /root/venv/bin/python3 -r ~/ComfyUI/requirements.txt
 git clone https://github.com/Comfy-Org/ComfyUI-Manager.git
 cd ~/ComfyUI/custom_nodes
-uv pip install --python /root/venv/bin/python3 --upgrade comfyui-manager
+uv pip install --python /root/venv/bin/python3 --upgrade ComfyUI-Manager
 uv pip install --python /root/venv/bin/python3 -r ~/ComfyUI/custom_nodes/ComfyUI-Manager/requirements.txt
 
 
