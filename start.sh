@@ -41,4 +41,4 @@ diffusers matplotlib scikit-image imageio-ffmpeg
 #5. Run ComfyUI
 echo "Starting ComfyUI..."
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
-python3.12 main.py --listen 0.0.0.0 --default-device 0 --enable-manager
+python main.py --listen 0.0.0.0 --default-device 0 --enable-manager
