@@ -1,5 +1,5 @@
 # ComfyUI-Setup on Proxmox server
-## Running Ubuntu 26.04 server cli LXC
+## Running Ubuntu 26.04 server LXC
 ## Nvidia Tesla P40 (24Gb) gpu and GTX 1070 (8Gb) gpu
 
 P40 and GTX 1000 series gpu's run the Architecture 61 cards.  Modern CUDA and NVIDIA drivers no longer support these cards and require older version to work with ComfyUI.
@@ -17,14 +17,25 @@ chmod +x NVIDIA-Linux-x86_64-535.309.01.run
 ```
 ./NVIDIA* --dkms -s
 ```
-4) Start the ComfyUI LXC
-5) Copy the update.sh and type:
+4) Start the ComfyUI LXC vm
+5) Copy the update.sh and type in an SSH terminal
 ```
 nano update.sh
 ```
-6) Past the update.sh into the text editor using CTRL-SHIFT-V
+6) Paste the update.sh into the text editor using CTRL-SHIFT-V
 7) Press CTRL-o to save
 8) Press CTRL-x to exit the nano text editor
+
+
+# Install SSH server
+```
+apt update && apt install openssh-server -y
+```
+
+
+
+
+
 
 
 Add in the GPU via the passthru
@@ -33,6 +44,11 @@ List all detected GPU's
 ```
 ls -al /dev/nvidia*
 ```
+
+
+
+
+
 
 ```
 git clone https://github.com/Comfy-Org/ComfyUI.git
