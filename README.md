@@ -9,6 +9,7 @@ The latest version of Python does not support the older NVIDIA drivers so we nee
 1) Create a CT/LXC vm on Proxmox.  I have mine with 350Gb disk, 24Gb ram, 30 cpu cores, and a static IP.
 2) Start the LXC vm and log into from the shell
 
+# Install GIT
 ```
 sudo apt update && sudo apt install git -y
 ```
