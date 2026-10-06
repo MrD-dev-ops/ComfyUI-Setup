@@ -5,6 +5,7 @@
 P40 and GTX 1000 series gpu's run the Architecture 61 cards.  Modern CUDA and NVIDIA drivers no longer support these cards and require older version to work with ComfyUI.
 The latest version of Python does not support the older NVIDIA drivers so we need to install Python 3.12.15 for compatibility.
 
+# LXC setup
 1) Create a LXC vm on Proxmox.  I have mine with 350Gb disk, 24Gb ram, 30 cpu cores, and a static IP.
 
 # Update Ubuntu 26.04 server
