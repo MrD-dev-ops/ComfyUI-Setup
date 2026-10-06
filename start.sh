@@ -25,7 +25,6 @@ cd ~/ComfyUI
 # 4. Install missing dependencies without touching existing packages
 echo "Installing requirements..."
 
-uv pip install --python python --upgrade ComfyUI
 uv pip install --python python -r ~/ComfyUI/requirements.txt
 uv pip install --python python --upgrade ComfyUI-Manager
 uv pip install --python python -r ~/ComfyUI/custom_nodes/ComfyUI-Manager/requirements.txt
