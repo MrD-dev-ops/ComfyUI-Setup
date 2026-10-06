@@ -35,12 +35,11 @@ reboot
 sudo ufw allow ssh && sudo ufw allow 8188/tcp
 ```
 ```
-sudo ufw status verbose
-```
-```
 sudo ufw enable
 ```
-
+```
+sudo ufw status verbose
+```
 
 
 
