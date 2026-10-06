@@ -117,6 +117,7 @@ cr--r--r--  1 root root 240, 2 Oct  6 13:39 nvidia-cap2
 3) In the Ubuntu 26.04 server LXC click Resource in the menu
 4) Click Add button and Device Passthrough from the menu dropdown
 Copy/Paste these settings into the Device Passthrough
+Repeat for each device listed from the ls -al /dev/nvidia* command
 ```
 /dev/nvidia0
 /dev/nvidia1
