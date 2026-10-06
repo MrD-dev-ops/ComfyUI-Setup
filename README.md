@@ -77,8 +77,16 @@ chmod +x NVIDIA-Linux-x86_64-535.309.01.run
 ```
 ./NVIDIA-Linux-x86_64-535.309.01.run --dkms -s
 ```
-4) Start the ComfyUI LXC vm
 
+# Install NVIDIA drivers on Ubuntu 26.04 server LXC
+1) Start the ComfyUI LXC vm and log in via SSH
+2) Download the NVIDIA drivers
+```
+wget -c https://download.nvidia.com/XFree86/Linux-x86_64/535.309.01/NVIDIA-Linux-x86_64-535.309.01.run
+```
+```
+chmod +x NVIDIA-Linux-x86_64-535.309.01.run
+```
 
 
 
