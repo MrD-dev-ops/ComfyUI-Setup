@@ -101,17 +101,7 @@ git clone https://github.com/Comfy-Org/ComfyUI.git
 cd ~/ComfyUI/custom_nodes
 git clone https://github.com/Comfy-Org/ComfyUI-Manager.git
 
-# Start Virtual Environment
-python -m venv venv
-source venv/bin/activate
-uv pip install --python python3 --upgrade pip
-uv pip install --python python3 -r ~/ComfyUI/requirements.txt
-uv pip install --python python3 -r ~/ComfyUI/custom_nodes/ComfyUI-Manager/requirements.txt
-
-
-
-
 #Optional
-#sudo ufw allow ssh && sudo ufw allow 8188/tcp
-#sudo ufw enable
+sudo ufw allow ssh && sudo ufw allow 8188/tcp
+sudo ufw enable
 
