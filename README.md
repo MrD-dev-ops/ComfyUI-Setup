@@ -114,7 +114,7 @@ drwxr-xr-x 21 root root   4920 Oct  6 13:39 ..
 cr--------  1 root root 240, 1 Oct  6 13:39 nvidia-cap1
 cr--r--r--  1 root root 240, 2 Oct  6 13:39 nvidia-cap2
 ```
-3) In the Ubuntu 26.04 server LXC click Resource in the menu
+3) In the Ubuntu 26.04 server LXC click Resources in the menu
 4) Click Add button and Device Passthrough from the menu dropdown
 5) Copy/Paste these settings into the Device Passthrough
 6) Click the Add button
