@@ -27,7 +27,7 @@ echo "Installing requirements..."
 
 uv pip install --python /root/venv/bin/python3.12 --upgrade ComfyUI-Manager
 uv pip install --python /root/venv/bin/python3.12 -r ~/ComfyUI/requirements.txt
-uv pip install --python /root/venv/bin/python3 --upgrade ComfyUI-Manager
+uv pip install --python /root/venv/bin/python3.12 --upgrade ComfyUI-Manager
 cd ~/ComfyUI/custom_nodes
 uv pip install --python /root/venv/bin/python3.12 -r ~/ComfyUI/custom_nodes/ComfyUI-Manager/requirements.txt
 
