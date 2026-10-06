@@ -27,6 +27,10 @@ chmod +x *.sh
 ```
 ./install_comfy.sh
 ```
+After the script finishes, reboot the Ubuntu 26.04 server LXC
+```
+reboot
+```
 
 
 
