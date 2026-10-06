@@ -99,8 +99,6 @@ uv pip install --python python3 -r ~/ComfyUI/custom_nodes/ComfyUI-Manager/requir
 
 
 
-
-
 #Optional
 #sudo ufw allow ssh && sudo ufw allow 8188/tcp
 #sudo ufw enable
