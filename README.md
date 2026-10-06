@@ -76,56 +76,9 @@ cr--r--r--  1 root root 240, 2 Oct  6 13:39 nvidia-cap2
 ```
 Your detected NVIDIA devices may vary from mine depending upon you GPU hardware
 
-
-
-
-
-
-
-# Install ComfyUI
-https://github.com/comfy-org/comfyui
-https://docs.comfy.org/installation/manual_install#linux
-```
-
-```
-# Install UV
-```
-curl -LsSf https://astral.sh/uv/install.sh | sh
-```
-
-uv self update
-python -m venv venv
-source venv/bin/activate
-uv pip install --python python3 --upgrade pip
-
-
-git clone https://github.com/Comfy-Org/ComfyUI.git
-cd ~/ComfyUI
-uv pip install --python /root/venv/bin/python3 -r ~/ComfyUI/requirements.txt
-
-# Install ComfyUI-Manager
-cd ~/ComfyUI/custom_nodes
-git clone https://github.com/Comfy-Org/ComfyUI-Manager.git
-uv pip install --python /root/venv/bin/python3 -r ~/ComfyUI/custom_nodes/ComfyUI-Manager/requirements.txt
-
-
-
-
-
-
-
-
-
-
-
-
 # Install extensions in ComfyUI
 Install ComfyUI-GGUF by city96
 Install ComfyUI-GGUF-Loader by ChirsColeTech
-
-
-
-
 
 
 How to Use the LTX 2.5 All-In-One Workflow in ComfyUI \
