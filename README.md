@@ -163,15 +163,19 @@ Tue Oct  6 19:55:52 2026
 |  No running processes found                                                           |
 +---------------------------------------------------------------------------------------+
 ```
-# Install GIT
+# Install GIT & Curl
 ```
-sudo apt update && sudo apt install git -y
+sudo apt update && sudo apt install git curl -y
 ```
 # Install ComfyUI
 https://github.com/comfy-org/comfyui \
 https://docs.comfy.org/installation/manual_install#linux
 ```
 git clone https://github.com/Comfy-Org/ComfyUI.git
+```
+# Install UV
+```
+curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
 
