@@ -128,6 +128,7 @@ cr--r--r--  1 root root 240, 2 Oct  6 13:39 nvidia-cap2
 /dev/nvidia-caps/nvidia-cap1
 /dev/nvidia-caps/nvidia-cap2
 ```
+You detected NVIDIA devices may vary from mine depending upon you GPU hardware.
 
 
 
