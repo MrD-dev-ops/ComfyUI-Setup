@@ -82,11 +82,20 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 source $HOME/.local/bin/env
 uv self update
 
+# Install ComfyUI
+git clone https://github.com/Comfy-Org/ComfyUI.git
 
+# Install ComfyUI-Manager
+cd ~/ComfyUI/custom_nodes
+git clone https://github.com/Comfy-Org/ComfyUI-Manager.git
 
+# Start Virtual Environment
+python -m venv venv
+source venv/bin/activate
+uv pip install --python python3 --upgrade pip
 
-
-
+uv pip install --python /root/venv/bin/python3 -r ~/ComfyUI/requirements.txt
+uv pip install --python /root/venv/bin/python3 -r ~/ComfyUI/custom_nodes/ComfyUI-Manager/requirements.txt
 
 
 
