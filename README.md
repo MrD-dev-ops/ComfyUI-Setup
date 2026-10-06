@@ -87,9 +87,9 @@ wget -c https://download.nvidia.com/XFree86/Linux-x86_64/535.309.01/NVIDIA-Linux
 ```
 chmod +x NVIDIA-Linux-x86_64-535.309.01.run
 ```
-
-
-
+```
+./NVIDIA-Linux-x86_64-535.309.01.run --no-kernel-modules -s
+```
 
 
 
