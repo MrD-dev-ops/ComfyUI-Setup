@@ -22,6 +22,10 @@ wget -c https://download.nvidia.com/XFree86/Linux-x86_64/535.309.01/NVIDIA-Linux
 ```
 chmod +x NVIDIA-Linux-x86_64-535.309.01.run
 ```
+3) Install the NVIDIA driver
+```
+./NVIDIA* --dkms -s
+```
 
 Add in the GPU via the passthru
 List all detected GPU's
