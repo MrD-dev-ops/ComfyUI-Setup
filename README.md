@@ -16,10 +16,11 @@ nano update.sh
 2) Paste the update.sh into the text editor using CTRL-SHIFT-V
 3) Press CTRL-o to save
 4) Press CTRL-x to exit the nano text editor
-5) ```
-   chmod +x update.sh
-   ```
-6) In the Proxmox console run and install all updates
+5) Make the update.sh executable
+```
+chmod +x update.sh
+```
+7) In the Proxmox console run and install all updates
 ```
 ./update.sh
 ```
