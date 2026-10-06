@@ -13,7 +13,7 @@ The latest version of Python does not support the older NVIDIA drivers so we nee
 ```
 nano update.sh
 ```
-2) Paste the update.sh into the text editor using CTRL-SHIFT-V
+2) Paste the update.sh text into the text editor using CTRL-SHIFT-V
 3) Press CTRL-o to save
 4) Press CTRL-x to exit the nano text editor
 5) Make the update.sh executable
