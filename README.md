@@ -167,6 +167,10 @@ Tue Oct  6 19:55:52 2026
 ```
 sudo apt update && sudo apt install git curl -y
 ```
+1) Add uv to the syste PATH
+```
+source $HOME/.local/bin/env
+```
 # Install ComfyUI
 https://github.com/comfy-org/comfyui \
 https://docs.comfy.org/installation/manual_install#linux
