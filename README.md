@@ -168,11 +168,16 @@ Tue Oct  6 19:55:52 2026
 sudo apt update && sudo apt install git -y
 ```
 # Install ComfyUI
-https://github.com/comfy-org/comfyui
+https://github.com/comfy-org/comfyui \
 https://docs.comfy.org/installation/manual_install#linux
 ```
 git clone https://github.com/Comfy-Org/ComfyUI.git
 ```
+
+
+
+
+
 
 # Python 3.12.15 compile from source
 Download Python:
