@@ -98,6 +98,7 @@ chmod +x NVIDIA-Linux-x86_64-535.309.01.run
 ```
 ls -al /dev/nvidia*
 ```
+```
 Should display something similar:
 ls -al /dev/nvidia*
 crw-rw-rw- 1 root root 195,   0 Oct  6 13:39 /dev/nvidia0
@@ -112,7 +113,7 @@ drwxr-xr-x  2 root root     80 Oct  6 13:39 .
 drwxr-xr-x 21 root root   4920 Oct  6 13:39 ..
 cr--------  1 root root 240, 1 Oct  6 13:39 nvidia-cap1
 cr--r--r--  1 root root 240, 2 Oct  6 13:39 nvidia-cap2
-
+```
 
 
 
