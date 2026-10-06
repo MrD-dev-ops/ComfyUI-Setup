@@ -28,6 +28,10 @@ nano update.sh
 reboot
 ```
 
+#Optional -UFW firewall setup
+1) On the Ubuntu 26.04 server LXC
+
+
 
 
 # Install SSH server
