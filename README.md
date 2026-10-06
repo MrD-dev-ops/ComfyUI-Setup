@@ -53,7 +53,11 @@ Press CTRL-o to save
 Press CTRL-x to exit nano
 ```
 PermitRootLogin yes
-PubkeyAuthentication yes
+PasswordAuthentication yes
+```
+Restart ssh service
+```
+sudo systemctl restart ssh
 ```
 
 Run this command in the console and the ssh service should show running
