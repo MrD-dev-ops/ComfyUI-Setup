@@ -175,14 +175,26 @@ source $HOME/.local/bin/env
 https://github.com/comfy-org/comfyui \
 https://docs.comfy.org/installation/manual_install#linux
 ```
-git clone https://github.com/Comfy-Org/ComfyUI.git
+
 ```
 # Install UV
 ```
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
+uv self update
+python -m venv venv
+source venv/bin/activate
+uv pip install --python python3 --upgrade pip
 
+
+git clone https://github.com/Comfy-Org/ComfyUI.git
+cd ~/ComfyUI
+uv pip install --python /root/venv/bin/python3.12 -r ~/ComfyUI/requirements.txt
+git clone https://github.com/Comfy-Org/ComfyUI-Manager.git
+cd ~/ComfyUI/custom_nodes
+uv pip install --python /root/venv/bin/python3.12 --upgrade comfyui-manager
+uv pip install --python /root/venv/bin/python3.12 -r ~/ComfyUI/custom_nodes/comfyui-manager/requirements.txt
 
 
 
@@ -202,6 +214,11 @@ tar -xf Python-3.12.15.tar.xz
 
 
 https://www.build-python-from-source.com/?v=3.12.15&os=ubuntu&path=1&verify=1
+
+
+
+
+
 
 
 
