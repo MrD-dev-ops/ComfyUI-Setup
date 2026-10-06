@@ -130,6 +130,40 @@ cr--r--r--  1 root root 240, 2 Oct  6 13:39 nvidia-cap2
 ```
 You detected NVIDIA devices may vary from mine depending upon you GPU hardware.
 8) Reboot the Ubuntu 26.04 server LXC
+9) Log into the LXC
+10) Type the following command into the LXC terminal to check of the GPUs are detected
+```
+nvidia-smi
+```
+Should see something like this
+nvidia-smi
+Tue Oct  6 19:55:52 2026       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.309.01             Driver Version: 535.309.01   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA GeForce GTX 1070        On  | 00000000:04:00.0 Off |                  N/A |
+|  0%   36C    P8              12W / 180W |      0MiB /  8192MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   1  Tesla P40                      On  | 00000000:84:00.0 Off |                    0 |
+| N/A   21C    P8              10W / 250W |      0MiB / 23040MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+
+
+
 
 
 
