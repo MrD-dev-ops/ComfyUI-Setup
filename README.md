@@ -64,6 +64,8 @@ sudo systemctl restart ssh
 ```
 sudo systemctl status ssh
 ```
+6) Log into the Ubuntu 26.04 server via SSH
+
 # Install NVIDIA drivers on Proxmox server
 1) Download the older version of NVIDIA driver 535.309-01 onto the Proxmox server
 ```
