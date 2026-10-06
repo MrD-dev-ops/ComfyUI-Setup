@@ -8,7 +8,7 @@ The latest version of Python does not support the older NVIDIA drivers so we nee
 # LXC setup
 1) Create a LXC vm on Proxmox.  I have mine with 350Gb disk, 24Gb ram, 30 cpu cores, and a static IP.
 
-# Update Ubuntu 26.04 server
+# Update Ubuntu 26.04 server LXC
 1) Copy the update.sh and type in the Ubuntu 26.04 console:
 ```
 nano update.sh
