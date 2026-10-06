@@ -6,6 +6,27 @@ P40 and GTX 1000 series gpu's run the Architecture 61 cards.  Modern CUDA and NV
 The latest version of Python does not support the older NVIDIA drivers so we need to install Python 3.12.15 for compatibility.
 
 1) Create a LXC vm on Proxmox.  I have mine with 350Gb disk, 24Gb ram, 30 cpu cores, and a static IP.
+
+# Update Ubuntu 26.04 server
+1) Copy the update.sh and type in an Proxmox console:
+```
+nano update.sh
+```
+2) Paste the update.sh into the text editor using CTRL-SHIFT-V
+3) Press CTRL-o to save
+4) Press CTRL-x to exit the nano text editor
+5) ```
+   chmod +x update.sh
+   ```
+
+
+
+# Install SSH server
+```
+apt update && apt install openssh-server -y
+```
+
+
 2) Download the older version of NVIDIA driver 535.309-01 onto the Proxmox server
 ```
 wget -c https://download.nvidia.com/XFree86/Linux-x86_64/535.309.01/NVIDIA-Linux-x86_64-535.309.01.run
@@ -18,19 +39,10 @@ chmod +x NVIDIA-Linux-x86_64-535.309.01.run
 ./NVIDIA* --dkms -s
 ```
 4) Start the ComfyUI LXC vm
-5) Copy the update.sh and type in an SSH terminal
-```
-nano update.sh
-```
-6) Paste the update.sh into the text editor using CTRL-SHIFT-V
-7) Press CTRL-o to save
-8) Press CTRL-x to exit the nano text editor
 
 
-# Install SSH server
-```
-apt update && apt install openssh-server -y
-```
+
+
 
 
 
