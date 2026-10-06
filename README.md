@@ -2,15 +2,6 @@
 ## Running Ubuntu 26.04 server cli LXC
 ## Nvidia Tesla P40 (24Gb) gpu and GTX 1070 (8Gb) gpu
 
-How to Use the LTX 2.5 All-In-One Workflow in ComfyUI \
-https://www.youtube.com/watch?v=v1zOJa95Bo4
-
-LTX 2.5 ComfyUI Setup Guide \
-https://ltxworkflow.com/guide/ltx-2-5-comfyui
-
-Install ComfyUI on Linux (Ubuntu 26.04 server) \
-https://docs.comfy.org/installation/manual_install
-
 P40 and GTX 1000 series gpu's run the Architecture 61 cards.  Modern CUDA and NVIDIA drivers no longer support these cards and require older version to work with ComfyUI.
 The latest version of Python does not support the older NVIDIA drivers so we need to install Python 3.12.15 for compatibility.
 
@@ -28,9 +19,9 @@ chmod +x NVIDIA-Linux-x86_64-535.309.01.run
 ```
 4) Start the ComfyUI LXC
 5) Copy the update.sh and type:
-   ```
-   nano update.sh
-   ```
+```
+nano update.sh
+```
 6) Past the update.sh into the text editor using CTRL-SHIFT-V
 7) Press CTRL-o to save
 8) Press CTRL-x to exit the nano text editor
@@ -70,3 +61,17 @@ https://www.build-python-from-source.com/?v=3.12.15&os=ubuntu&path=1&verify=1
 # Install extensions in ComfyUI
 Install ComfyUI-GGUF by city96
 Install ComfyUI-GGUF-Loader by ChirsColeTech
+
+
+
+
+
+
+How to Use the LTX 2.5 All-In-One Workflow in ComfyUI \
+https://www.youtube.com/watch?v=v1zOJa95Bo4
+
+LTX 2.5 ComfyUI Setup Guide \
+https://ltxworkflow.com/guide/ltx-2-5-comfyui
+
+Install ComfyUI on Linux (Ubuntu 26.04 server) \
+https://docs.comfy.org/installation/manual_install
