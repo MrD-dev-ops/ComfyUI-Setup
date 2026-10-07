@@ -29,7 +29,9 @@ uv pip install --python python -r ~/ComfyUI/custom_nodes/ComfyUI-Manager/require
 #python -m pip uninstall torch torchvision torchaudio -y
 uv pip install --python python torch torchvision torchaudio --torch-backend=cu118
 
-cd ~/ComfyUI/custom_nodes/ComfyUI-GGUF
+#Install ComfyUI-GGUF extension
+cd ~/ComfyUI/custom_nodes
+git clone https://github.com/city96/ComfyUI-GGUF.git
 uv pip install --python python -r ~/ComfyUI/custom_nodes/ComfyUI-GGUF/requirements.txt
 
 
