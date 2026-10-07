@@ -35,7 +35,7 @@ reboot
 
 
 
-# Install NVIDIA drivers on Proxmox server
+# Install NVIDIA drivers on PROXMOX Host server
 1) Download the older version of NVIDIA driver 535.309-01 onto the Proxmox server
 ```
 wget -c https://download.nvidia.com/XFree86/Linux-x86_64/535.309.01/NVIDIA-Linux-x86_64-535.309.01.run
