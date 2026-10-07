@@ -29,14 +29,14 @@ uv pip install torch torchvision torchaudio --torch-backend=cu118
 
 # Install ComfyUI extensions and requirements
 cd ~/ComfyUI/custom_nodes
-git clone https://github.com/Lightricks/ComfyUI-LTXVideo.git
 uv pip install -r ~/ComfyUI/custom_nodes/ComfyUI-LTXVideo/requirements.txt
-
-git clone https://github.com/city96/ComfyUI-GGUF.git
 uv pip install -r ~/ComfyUI/custom_nodes/ComfyUI-GGUF/requirements.txt
-
-git clone https://github.com/evanspearman/ComfyMath.git
 uv pip install -r ~/ComfyUI/custom_nodes/ComfyMath/requirements.txt
+uv pip install -r ~/ComfyUI/custom_nodes/ComfyUI-Easy-Use/requirements.txt
+uv pip install -r ~/ComfyUI/custom_nodes/ComfyUI-KJNodes/requirements.txt
+
+
+
 
 uv pip install PyOpenGL-accelerate
 
