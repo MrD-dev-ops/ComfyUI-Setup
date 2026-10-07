@@ -33,10 +33,15 @@ uv pip install --python python torch torchvision torchaudio --torch-backend=cu11
 cd ~/ComfyUI/custom_nodes
 git clone https://github.com/Lightricks/ComfyUI-LTXVideo.git
 git clone https://github.com/city96/ComfyUI-GGUF.git
+git clone https://github.com/evanspearman/ComfyMath.git
+
 
 # Install ComfyUI-GGUF & ComfyUI-LTXVideo
 uv pip install --python python -r ~/ComfyUI/custom_nodes/ComfyUI-GGUF/requirements.txt
 uv pip install --python python -r ~/ComfyUI/custom_nodes/ComfyUI-LTXVideo/requirements.txt
+uv pip install --python python -r ~/ComfyUI/custom-nodes/ComfyUI-ComfyMath/requirements.txt
+
+cp All-In-One-Workflow-260820-1.json ~/ComfyUI/user/default/workflows/
 
 # Run ComfyUI
 cd ~/ComfyUI
