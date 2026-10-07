@@ -116,5 +116,6 @@ sudo ufw enable
 
 #Copy start.sh to home folder
 cp ~/ComfyUI-Setup/start.sh ~
+mkdir -p ~/ComfyUI/user/default/workflows
 cp ~/ComfyUI-Setup/All-In-One-Workflow-260820-1.json ~/ComfyUI/user/default/workflows
 
