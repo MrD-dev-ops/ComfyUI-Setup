@@ -37,9 +37,11 @@ git clone https://github.com/city96/ComfyUI-GGUF.git
 uv pip install --python python -r ~/ComfyUI/custom_nodes/ComfyUI-GGUF/requirements.txt
 git clone https://github.com/evanspearman/ComfyMath.git
 uv pip install --python python -r ~/ComfyUI/custom-nodes/ComfyMath/requirements.txt
-uv pip install --python python -r ~/ComfyUI/custom_nodes/ComfyMath/requirements.txt
-uv pip install --python python -r ~/ComfyUI/custom_nodes/ComfyMath/requirements.txt
 
+
+cd ~/ComfyUI/custom_nodes
+git clone https://github.com/evanspearman/ComfyMath.git
+uv pip install --python python -r /root/ComfyUI/custom_nodes/ComfyMath/requirements.txt
 
 # Install ComfyUI-GGUF & ComfyUI-LTXVideo
 
