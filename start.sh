@@ -29,8 +29,12 @@ uv pip install --python python -r ~/ComfyUI/custom_nodes/ComfyUI-Manager/require
 #python -m pip uninstall torch torchvision torchaudio -y
 uv pip install --python python torch torchvision torchaudio --torch-backend=cu118
 
-uv pip install --python python colour gguf opencv-python matrix-nio \
-diffusers matplotlib scikit-image imageio-ffmpeg
+cd ~/ComfyUI/custom_nodes/ComfyUI-GGUF
+uv pip install --python python -r ~/ComfyUI/custom_nodes/ComfyUI-GGUF/requirements.txt
+
+
+#uv pip install --python python colour gguf opencv-python matrix-nio \
+#diffusers matplotlib scikit-image imageio-ffmpeg
 
 #uv pip install --python python comfyui-workflow-templates
 
