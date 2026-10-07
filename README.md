@@ -89,6 +89,13 @@ Your detected NVIDIA devices may vary from mine depending upon you GPU hardware 
 reboot
 ```
 
+# Start ComfyUI
+1) Log into the Ubuntu 26.04 server LXC
+2) Run the following command:
+```
+source start.sh
+```
+
 
 
 # Install extensions in ComfyUI
