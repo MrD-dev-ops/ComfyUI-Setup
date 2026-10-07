@@ -31,8 +31,11 @@ uv pip install --python python torch torchvision torchaudio --torch-backend=cu11
 
 #Install ComfyUI-GGUF extension
 cd ~/ComfyUI/custom_nodes
+git clone https://github.com/Lightricks/ComfyUI-LTXVideo.git
 git clone https://github.com/city96/ComfyUI-GGUF.git
+
 uv pip install --python python -r ~/ComfyUI/custom_nodes/ComfyUI-GGUF/requirements.txt
+uv pip install --python python -r ~/ComfyUI/custom_nodes/ComfyUI-LTXVideo/requirements.txt
 
 
 #uv pip install --python python colour gguf opencv-python matrix-nio \
