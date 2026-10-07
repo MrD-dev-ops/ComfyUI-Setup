@@ -1,14 +1,13 @@
 #!/bin/bash
 clear
 
-#curl -LsSf https://astral.sh/uv/install.sh | sh  <--install uv if missing
+# uv self update
 uv self update
 
-# Create the virtual environment using Python 3.12 if it doesn't exist
+# Create the virtual environment using Python 3.12.15 via uv if it doesn't exist
 if [ ! -d "venv" ]; then
-    echo "Creating virtual environment..."
-    python -m venv venv
-
+    echo "Creating virtual environment with uv..."
+    uv venv --python /root/python/3.12.15/bin/python3 venv
 else
     echo "Virtual environment already exists."
 fi
@@ -17,37 +16,29 @@ fi
 source venv/bin/activate
 echo "Virtual environment is now active!"
 
-uv pip install --python python3 --upgrade pip
+uv pip install --upgrade pip
 
 # Install missing dependencies without touching existing packages
 echo "Installing requirements..."
 
-uv pip install --python python -r ~/ComfyUI/requirements.txt
-uv pip install --python python --upgrade ComfyUI-Manager
-uv pip install --python python -r ~/ComfyUI/custom_nodes/ComfyUI-Manager/requirements.txt
+uv pip install -r ~/ComfyUI/requirements.txt
+uv pip install --upgrade ComfyUI-Manager
+uv pip install -r ~/ComfyUI/custom_nodes/ComfyUI-Manager/requirements.txt
 
-#python -m pip uninstall torch torchvision torchaudio -y
-uv pip install --python python torch torchvision torchaudio --torch-backend=cu118
+uv pip install torch torchvision torchaudio --torch-backend=cu118
 
-#Install ComfyUI-GGUF extension
+# Install ComfyUI extensions and requirements
 cd ~/ComfyUI/custom_nodes
 git clone https://github.com/Lightricks/ComfyUI-LTXVideo.git
-uv pip install --python python -r ~/ComfyUI/custom_nodes/ComfyUI-LTXVideo/requirements.txt
+uv pip install -r ~/ComfyUI/custom_nodes/ComfyUI-LTXVideo/requirements.txt
+
 git clone https://github.com/city96/ComfyUI-GGUF.git
-uv pip install --python python -r ~/ComfyUI/custom_nodes/ComfyUI-GGUF/requirements.txt
+uv pip install -r ~/ComfyUI/custom_nodes/ComfyUI-GGUF/requirements.txt
+
 git clone https://github.com/evanspearman/ComfyMath.git
-uv pip install --python python -r ~/ComfyUI/custom-nodes/ComfyMath/requirements.txt
+uv pip install -r ~/ComfyUI/custom_nodes/ComfyMath/requirements.txt
 
-
-cd ~/ComfyUI/custom_nodes
-git clone https://github.com/evanspearman/ComfyMath.git
-uv pip install --python python -r /root/ComfyUI/custom_nodes/ComfyMath/requirements.txt
-
-# Install ComfyUI-GGUF & ComfyUI-LTXVideo
-
-
-
-
+# Copy workflow file
 cp All-In-One-Workflow-260820-1.json ~/ComfyUI/user/default/workflows/
 
 # Run ComfyUI
