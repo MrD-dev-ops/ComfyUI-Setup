@@ -109,5 +109,5 @@ sudo ufw allow ssh && sudo ufw allow 8188/tcp
 sudo ufw enable
 
 #Copy start.sh to home folder
-#cp ~/ComfyUI-Setup/start.sh ~
+cp ~/ComfyUI-Setup/start.sh ~
 
