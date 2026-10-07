@@ -93,6 +93,9 @@ reboot
 1) Log into the Ubuntu 26.04 server LXC
 2) Run the following command:
 ```
+cd ComfuUI-Setup/
+```
+```
 source start.sh
 ```
 
