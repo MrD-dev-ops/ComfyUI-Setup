@@ -45,6 +45,7 @@ uv pip install --python python -r ~/ComfyUI/custom_nodes/ComfyUI-LTXVideo/requir
 #uv pip install --python python comfyui-workflow-templates
 
 # Run ComfyUI
+cd ~/ComfyUI
 echo "Starting ComfyUI..."
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 python main.py --listen 0.0.0.0 --default-device 0 --enable-manager
