@@ -101,6 +101,10 @@ git clone https://github.com/Comfy-Org/ComfyUI.git
 cd ~/ComfyUI/custom_nodes
 git clone https://github.com/Comfy-Org/ComfyUI-Manager.git
 
+#Install ComfyUI-GGUF extension
+cd ~/ComfyUI/custom_nodes
+git clone https://github.com/city96/ComfyUI-GGUF.git
+
 #Optional
 sudo ufw allow ssh && sudo ufw allow 8188/tcp
 sudo ufw enable
