@@ -36,12 +36,11 @@ uv pip install -r ~/ComfyUI/custom_nodes/ComfyUI-Easy-Use/requirements.txt
 uv pip install -r ~/ComfyUI/custom_nodes/ComfyUI-KJNodes/requirements.txt
 
 
-
-
 uv pip install PyOpenGL-accelerate
 
 # Copy workflow file
-cp All-In-One-Workflow-260820-1.json ~/ComfyUI/user/default/workflows/
+#cp All-In-One-Workflow-260820-1.json ~/ComfyUI/user/default/workflows/
+cp ~/ComfyUI-Setup/All-In-One-Workflow-260820-1.json ~/ComfyUI/user/default/workflows
 
 # Run ComfyUI
 cd ~/ComfyUI
