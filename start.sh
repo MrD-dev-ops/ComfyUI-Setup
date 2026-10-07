@@ -26,6 +26,7 @@ uv pip install --upgrade ComfyUI-Manager
 uv pip install -r ~/ComfyUI/custom_nodes/ComfyUI-Manager/requirements.txt
 
 uv pip install torch torchvision torchaudio --torch-backend=cu118
+uv pip install imageio-ffmpeg
 
 # Install ComfyUI extensions and requirements
 cd ~/ComfyUI/custom_nodes
