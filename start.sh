@@ -43,8 +43,19 @@ uv pip install PyOpenGL-accelerate
 #cp All-In-One-Workflow-260820-1.json ~/ComfyUI/user/default/workflows/
 cp ~/ComfyUI-Setup/All-In-One-Workflow-260820-1.json ~/ComfyUI/user/default/workflows
 
+cd ~/ComfyUI/models/loras
+wget -c https://huggingface.co/Lightricks/LTX-2-19b-IC-LoRA-Detailer/resolve/main/ltx-2-19b-ic-lora-detailer.safetensors
+wget -c https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Union-Control/resolve/main/ltx-2.3-22b-ic-lora-union-control-ref0.5.safetensors
+
+cd ~/ComfyUI/models/text_encoders
+wget -c https://huggingface.co/Comfy-Org/gemma-4/resolve/main/text_encoders/gemma4_e2b_it_bf16.safetensors
+
+
 # Run ComfyUI
 cd ~/ComfyUI
 echo "Starting ComfyUI..."
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 python main.py --listen 0.0.0.0 --default-device 0 --enable-manager
+
+
+
