@@ -100,11 +100,14 @@ git clone https://github.com/Comfy-Org/ComfyUI.git
 # Install ComfyUI-Manager
 cd ~/ComfyUI/custom_nodes
 git clone https://github.com/Comfy-Org/ComfyUI-Manager.git
+git clone https://github.com/Lightricks/ComfyUI-LTXVideo.git
+git clone https://github.com/city96/ComfyUI-GGUF.git
+git clone https://github.com/evanspearman/ComfyMath.git
 
 #Optional
 sudo ufw allow ssh && sudo ufw allow 8188/tcp
 sudo ufw enable
 
 #Copy start.sh to home folder
-cp ~/ComfyUI-Setup/start.sh ~
+#cp ~/ComfyUI-Setup/start.sh ~
 
