@@ -4,7 +4,7 @@ clear
 #curl -LsSf https://astral.sh/uv/install.sh | sh  <--install uv if missing
 uv self update
 
-# 1. Create the virtual environment using Python 3.12 if it doesn't exist
+# Create the virtual environment using Python 3.12 if it doesn't exist
 if [ ! -d "venv" ]; then
     echo "Creating virtual environment..."
     python -m venv venv
@@ -13,16 +13,13 @@ else
     echo "Virtual environment already exists."
 fi
 
-# 2. Activate the virtual environment
+# Activate the virtual environment
 source venv/bin/activate
 echo "Virtual environment is now active!"
 
 uv pip install --python python3 --upgrade pip
 
-# 3. Enter the ComfyUI directory
-cd ~/ComfyUI
-
-# 4. Install missing dependencies without touching existing packages
+# Install missing dependencies without touching existing packages
 echo "Installing requirements..."
 
 uv pip install --python python -r ~/ComfyUI/requirements.txt
@@ -37,7 +34,7 @@ diffusers matplotlib scikit-image imageio-ffmpeg
 
 #uv pip install --python python comfyui-workflow-templates
 
-#5. Run ComfyUI
+# Run ComfyUI
 echo "Starting ComfyUI..."
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 python main.py --listen 0.0.0.0 --default-device 0 --enable-manager
