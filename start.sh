@@ -50,6 +50,14 @@ wget -c https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Union-Control/reso
 cd ~/ComfyUI/models/text_encoders
 wget -c https://huggingface.co/Comfy-Org/gemma-4/resolve/main/text_encoders/gemma4_e2b_it_bf16.safetensors
 
+#Huggingface Log-in Required
+#cd ~/ComfyUI/models/diffusion_models
+#wget -c https://huggingface.co/Lightricks/LTX-2.5/resolve/main/diffusion_models/ltx-2.5-22b-distilled-transformer-comfy-int8-convrot.safetensors
+#cd ~/ComfyUI/models/text_encoders
+#wget -c https://huggingface.co/Lightricks/LTX-2.5/resolve/main/text_encoders/gemma4-12b-with-proj-ltx-2.5-comfy-int8-convrot.safetensors
+#cd ~/ComfyUI/models/latent_upscale_models
+#wget -c https://huggingface.co/Lightricks/LTX-2.5/resolve/main/latent_upscale_models/ltx-2.5-latent-spatial-upscaler-x2-bf16-1.0.safetensors
+
 
 # Run ComfyUI
 cd ~/ComfyUI
