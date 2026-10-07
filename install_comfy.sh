@@ -103,6 +103,12 @@ git clone https://github.com/Comfy-Org/ComfyUI-Manager.git
 git clone https://github.com/Lightricks/ComfyUI-LTXVideo.git
 git clone https://github.com/city96/ComfyUI-GGUF.git
 git clone https://github.com/evanspearman/ComfyMath.git
+git clone https://github.com/pythongosssss/ComfyUI-Custom-Scripts.git
+git clone https://github.com/yolain/ComfyUI-Easy-Use.git
+git clone https://github.com/kijai/ComfyUI-KJNodes.git
+git clone https://github.com/Smirnov75/ComfyUI-mxToolkit.git
+git clone https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite.git
+git clone https://github.com/rgthree/rgthree-comfy.git
 
 #Optional
 sudo ufw allow ssh && sudo ufw allow 8188/tcp
