@@ -1,5 +1,5 @@
 # ComfyUI-Setup on Proxmox server
-## Running Ubuntu 26.04 server LXC
+## LTX-2.5 setup running Ubuntu 26.04 server LXC
 ## Nvidia Tesla P40 (24Gb) gpu and GTX 1070 (8Gb) gpu
 
 P40 and GTX 1000 series gpu's run the Architecture 61 cards.  Modern CUDA and NVIDIA drivers no longer support these cards and require older version to work with ComfyUI.
