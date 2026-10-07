@@ -34,6 +34,7 @@ cd ~/ComfyUI/custom_nodes
 git clone https://github.com/Lightricks/ComfyUI-LTXVideo.git
 git clone https://github.com/city96/ComfyUI-GGUF.git
 
+# Install ComfyUI-GGUF & ComfyUI-LTXVideo
 uv pip install --python python -r ~/ComfyUI/custom_nodes/ComfyUI-GGUF/requirements.txt
 uv pip install --python python -r ~/ComfyUI/custom_nodes/ComfyUI-LTXVideo/requirements.txt
 
