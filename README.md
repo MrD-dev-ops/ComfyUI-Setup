@@ -83,7 +83,7 @@ cr--r--r--  1 root root 240, 2 Oct  6 13:39 nvidia-cap2
 /dev/nvidia-caps/nvidia-cap1
 /dev/nvidia-caps/nvidia-cap2
 ```
-Your detected NVIDIA devices may vary from mine depending upon you GPU hardware
+Your detected NVIDIA devices may vary from mine depending upon you GPU hardware \
 8 ) Reboot the Ubuntu 26.04 server LXC
 ```
 reboot
