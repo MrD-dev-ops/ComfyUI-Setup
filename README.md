@@ -47,7 +47,7 @@ chmod +x NVIDIA-Linux-x86_64-535.309.01.run
 ./NVIDIA-Linux-x86_64-535.309.01.run --dkms -s
 ```
 
-# Add in the GPU via the passthru
+# Add in the GPU via the passthru on Ubuntu 26.04 server LXC
 1) List all detected GPU's on the PROXMOX server
 2) Open the Proxmox shell and type:
 ```
