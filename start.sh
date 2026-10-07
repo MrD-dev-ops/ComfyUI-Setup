@@ -38,12 +38,6 @@ git clone https://github.com/city96/ComfyUI-GGUF.git
 uv pip install --python python -r ~/ComfyUI/custom_nodes/ComfyUI-GGUF/requirements.txt
 uv pip install --python python -r ~/ComfyUI/custom_nodes/ComfyUI-LTXVideo/requirements.txt
 
-
-#uv pip install --python python colour gguf opencv-python matrix-nio \
-#diffusers matplotlib scikit-image imageio-ffmpeg
-
-#uv pip install --python python comfyui-workflow-templates
-
 # Run ComfyUI
 cd ~/ComfyUI
 echo "Starting ComfyUI..."
