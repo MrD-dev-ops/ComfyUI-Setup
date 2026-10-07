@@ -105,3 +105,6 @@ git clone https://github.com/Comfy-Org/ComfyUI-Manager.git
 sudo ufw allow ssh && sudo ufw allow 8188/tcp
 sudo ufw enable
 
+#Copy start.sh to home folder
+cp ~/ComfyUI-Setup/start.sh ~
+
