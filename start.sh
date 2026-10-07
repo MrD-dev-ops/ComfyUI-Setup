@@ -38,6 +38,8 @@ uv pip install -r ~/ComfyUI/custom_nodes/ComfyUI-GGUF/requirements.txt
 git clone https://github.com/evanspearman/ComfyMath.git
 uv pip install -r ~/ComfyUI/custom_nodes/ComfyMath/requirements.txt
 
+uv pip install PyOpenGL-accelerate
+
 # Copy workflow file
 cp All-In-One-Workflow-260820-1.json ~/ComfyUI/user/default/workflows/
 
