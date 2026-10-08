@@ -111,6 +111,9 @@ git clone https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite.git
 git clone https://github.com/Smirnov75/ComfyUI-mxToolkit.git
 git clone https://github.com/rgthree/rgthree-comfy.git
 
+#Copy loader.py with gemma4 added to architecture
+cp ~/ComfyUI-Setup/loader.py ~/ComfyUI/custom_nodes/ComfyUI-GGUF
+
 #Optional
 sudo ufw allow ssh && sudo ufw allow 8188/tcp
 sudo ufw enable
