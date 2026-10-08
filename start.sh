@@ -26,7 +26,7 @@ uv pip install --upgrade ComfyUI-Manager
 uv pip install -r ~/ComfyUI/custom_nodes/ComfyUI-Manager/requirements.txt
 
 uv pip install torch torchvision torchaudio --torch-backend=cu118
-uv pip install imageio-ffmpeg
+uv pip install imageio-ffmpeg PyOpenGL-accelerate
 
 # Install ComfyUI extensions and requirements
 cd ~/ComfyUI/custom_nodes
@@ -36,9 +36,6 @@ uv pip install -r ~/ComfyUI/custom_nodes/ComfyMath/requirements.txt
 uv pip install -r ~/ComfyUI/custom_nodes/ComfyUI-Easy-Use/requirements.txt
 uv pip install -r ~/ComfyUI/custom_nodes/ComfyUI-KJNodes/requirements.txt
 uv pip install -r ~/ComfyUI/custom_nodes/ComfyUI-MediaMixer/requirements.txt
-
-
-uv pip install PyOpenGL-accelerate
 
 # Copy workflow file
 #cp All-In-One-Workflow-260820-1.json ~/ComfyUI/user/default/workflows/
