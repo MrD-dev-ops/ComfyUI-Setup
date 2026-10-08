@@ -35,6 +35,7 @@ uv pip install -r ~/ComfyUI/custom_nodes/ComfyUI-GGUF/requirements.txt
 uv pip install -r ~/ComfyUI/custom_nodes/ComfyMath/requirements.txt
 uv pip install -r ~/ComfyUI/custom_nodes/ComfyUI-Easy-Use/requirements.txt
 uv pip install -r ~/ComfyUI/custom_nodes/ComfyUI-KJNodes/requirements.txt
+uv pip install -r ~/ComfyUI/custom_nodes/ComfyUI-MediaMixer/requirements.txt
 
 
 uv pip install PyOpenGL-accelerate
