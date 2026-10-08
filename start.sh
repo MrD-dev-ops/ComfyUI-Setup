@@ -49,7 +49,6 @@ wget -c https://huggingface.co/Abiray/LTX-2.5-Distilled-GGUF/resolve/main/LTX-2.
 
 cd ~/ComfyUI/models/loras
 wget -c https://huggingface.co/Lightricks/LTX-2-19b-IC-LoRA-Detailer/resolve/main/ltx-2-19b-ic-lora-detailer.safetensors
-wget -c https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Union-Control/resolve/main/ltx-2.3-22b-ic-lora-union-control-ref0.5.safetensors
 
 cd ~/ComfyUI/models/text_encoders
 wget -c https://huggingface.co/Comfy-Org/gemma-4/resolve/main/text_encoders/gemma4_e2b_it_bf16.safetensors
