@@ -109,6 +109,7 @@ git clone https://github.com/kijai/ComfyUI-KJNodes.git
 git clone https://github.com/Smirnov75/ComfyUI-mxToolkit.git
 git clone https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite.git
 git clone https://github.com/rgthree/rgthree-comfy.git
+git clone https://github.com/DoctorDiffusion/ComfyUI-MediaMixer.git
 
 #Optional
 sudo ufw allow ssh && sudo ufw allow 8188/tcp
