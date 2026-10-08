@@ -61,9 +61,6 @@ cd ~/ComfyUI/models/vae
 #cd ~/ComfyUI/models/latent_upscale_models
 #wget -c https://huggingface.co/Lightricks/LTX-2.5/resolve/main/latent_upscale_models/ltx-2.5-latent-spatial-upscaler-x2-bf16-1.0.safetensors
 
-
-
-
 # Run ComfyUI
 cd ~/ComfyUI
 echo "Starting ComfyUI..."
