@@ -43,6 +43,9 @@ uv pip install PyOpenGL-accelerate
 #cp All-In-One-Workflow-260820-1.json ~/ComfyUI/user/default/workflows/
 cp ~/ComfyUI-Setup/All-In-One-Workflow-260820-1.json ~/ComfyUI/user/default/workflows
 
+cd ~/ComfyUI/models/diffusion_models
+wget -c https://huggingface.co/Abiray/LTX-2.5-Distilled-GGUF/resolve/main/LTX-2.5-Distilled-Q3_K_S.gguf
+
 cd ~/ComfyUI/models/loras
 wget -c https://huggingface.co/Lightricks/LTX-2-19b-IC-LoRA-Detailer/resolve/main/ltx-2-19b-ic-lora-detailer.safetensors
 wget -c https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Union-Control/resolve/main/ltx-2.3-22b-ic-lora-union-control-ref0.5.safetensors
